@@ -1,0 +1,89 @@
+// CODE TO CHECK IF GIVEN NUMBER IS ARMSTRONG NUMBER OR NOT
+
+import java.util.Scanner;
+
+public class Question1
+{
+    public static void main(String[] args) {
+           Scanner sc = new Scanner(System.in);
+            System.out.println("Enter Nmber : ");
+            int numberInput=sc.nextInt();
+            int digitCount=(int)Math.log10(numberInput) + 1;
+            
+            if(checkArmstrong(numberInput)){
+                System.out.println(numberInput + " is Armstrong");
+            }
+            else{
+                System.out.println(numberInput + " is not Armstrong");
+            }
+    }
+
+    public static boolean checkArmstrong(int numberInput){
+        int digitCount=(int)Math.log10(numberInput) + 1;
+            // System.out.println("Digit: "+digitCount);
+            int temp = numberInput,sum=0;
+            while(temp!=0){
+                int mod = temp%10;
+                sum+=Math.pow(mod,digitCount);
+                temp/=10;
+            }
+
+            if(sum==numberInput){
+              return true;
+            }
+            else{
+                return false;
+            }
+    }
+}
+
+----------------------------------------------------------------------------------
+// CODE TO FIND 3RD LARGEST ELEMENT IN AN ARRAY
+
+
+public class Question2{
+    public static void main(String[] args) {
+        int arr[] = new int[]{10,54,22,47,65,78,2,40,98,100};
+        Question2.sortArray(arr);
+        System.out.println("Third Largest Number : " + arr[arr.length-3]);
+        
+    }
+    
+    public static void sortArray(int[] arr){
+        int temp;
+        for (int i = 1; i < arr.length; i++) 
+        {
+            for(int j=i+1 ; j<arr.length ; j++)
+            {
+                if(arr[i]>arr[j]){
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
+}
+
+---------------------------------------------------------------------------------
+
+// CODE TO REVERSE A NUMBER
+
+import java.util.Scanner;
+
+public class Question3{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+            System.out.println("Enter Nmber : ");
+            int numberInput=sc.nextInt();
+            int reverse = 0;
+            while(numberInput!=0){
+                int mod = numberInput%10;
+                reverse = reverse * 10 + mod;
+                numberInput/=10;
+            }
+            System.out.println("Reversed number : "+reverse);
+
+    }
+
+} 

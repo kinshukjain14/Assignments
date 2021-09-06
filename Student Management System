@@ -1,0 +1,79 @@
+----Student Management System----
+
+>> Users
+	Fields : 
+	#userId : int
+	#userName : String
+	#firstName : String
+	#lastName : String
+	#contactNo : long
+	#address : String
+	#emailId : String
+	#password : String
+	#userCatergory : String
+	#userAccesses : String
+	
+	Methods : 
+	+getUserId()
+	+setUserId(int userId)
+	+getUserName()
+	+setUserName(String userName)
+	+getName()
+	+setName(String firstName,String lastName)
+	+getContactNo()
+	+setContactNo(long contactNo)
+	+getEmailId()
+	+setEmailId(String emailId)
+	+getPassword()
+	+setPassword(String password)
+	+login()
+	+logout()
+	+getUserType()
+	+getUserCategory()
+
+>> SuperUser extends User
+	Methods :	
+	+setAccesses()
+	+updateAcesses()
+	+authorizeUser(String userCatergory)
+
+>> NonSuperUser extends User
+	Methods : 
+	+requestAccess()
+	+initiateChangeRequests()
+	+authorizeUser(String userCatergory)
+
+
+>> Student extends NonSuperUser
+	Fields : 
+	-scholarNumber : int
+	-studentDivision : String
+
+	Methods :
+	+getScholarNumber()
+	+getStudentDivision()
+	+setStudentDivision(String studentDivision)
+	
+>> Admin extends SuperUser
+	Methods:
+	+generateScholarNumber()
+	+addStudent(Student student)
+	+addCourse(Course course)
+	+removeCourse()
+	+removeStudent(Student student)
+	+updateInfo()
+
+>> Trainer extends SuperUser
+	Fields : 
+	-trainerDesignation : String
+	-skillSets : ArrayList<String>
+
+	Methods :
+	+getTrainerDesignation()
+	+setTrainerDesignation(String trainerDesignation)
+	+getSkillSets()
+	+setSkillSets()
+	+markAttendence()
+	+evaluateTest()
+	
+	
