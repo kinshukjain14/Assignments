@@ -1,0 +1,19 @@
+1. In a String find and replace a word.
+
+  e.g Java is Object Oriented. Java is Programming Language.
+
+ Search for a word "Java"
+ Replace "Java" with "C++";
+
+ C++ is Object Oriented. C++ is Programming Language.
+
+
+2. In a given String count number of words, count numbers of number.
+
+  "12,RutherFord Building,Lake Street,Chichago-29"
+
+
+Hint: StreamTokenizer
+
+
+
