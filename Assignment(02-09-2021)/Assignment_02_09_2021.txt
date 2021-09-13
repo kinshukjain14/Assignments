@@ -1,0 +1,17 @@
+1. Create an array with five scores out of 100, compute the average of the scores and compute percentage.
+
+2. Create two 3 X 3 matrices and perform multiplication of matrices.
+
+3. Create a variable of type String with following data,
+
+
+   String data="Java is Object oriented. Java is platform independent.Java is simple."
+
+
+Search for word "Java" and count number of occurrences.
+
+4. Create an array of type int with 10 elements.
+ 
+  int array[]={8,2,3,1,6,5,7};
+
+Sort the array in descending order.
