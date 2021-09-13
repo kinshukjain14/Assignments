@@ -1,0 +1,26 @@
+1. Create an menu drive console-based application to register,view,update and delete student details.
+Use static arrays for storage of student objects.
+
+2. Create an interface with functionality of calculating simple interest,compound interest on principal amount based on given interest rates.
+Provide implementation of these functionality in a class
+
+3. Identify  appropriate Entities,Sub Entities,abstract classes and interfaces in Order Management System.
+
+4. Create a class Person and implement Serializable ,
+
+personId
+personName
+personAge
+personLocation
+....
+get()... set()
+
+ Using Reflection API
+
+   1. List all the constructors in Person class.
+   2. Write a code to dynamically create an object of Person class using class data.
+   3. Identify if Person class is implementing Serializable interface
+   4. Identify if Person class has getter() and setter() methods.
+
+
+
