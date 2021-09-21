@@ -1,0 +1,32 @@
+1. Ask user to enter five names
+
+   convert third character in a name to uppercase
+
+2. Create an console-based shopping cart.
+
+   At end of transaction, display total amount of all orders placed.
+
+
+3. Ask user to enter 6 student records with following attributes
+
+   Roll No
+   firstName
+   lastName
+   age
+   semester 1 marks
+   semester 2 marks
+   semester 3 marks
+
+ display Sorted student details based on age,firstName and lastName in ascending order.
+
+ display Sorted student details based on percentage of semester marks in descending order.
+
+
+
+
+
+
+
+
+
+
