@@ -1,0 +1,7 @@
+1. Identify Custom exception handling classes for following systems
+
+   -Stock Management System
+   -Library Management System
+   -Inventory Management System
+
+2. Identify 10 checked exception and 10 unchecked exception handling classes in JSE 8.0
