@@ -1,0 +1,7 @@
+1. Using TDD find fourth largest element of an array given size greater than 5
+
+2. Using TDD count the number of duplicates elements in an array of type String of size 10
+
+3. Using TDD approach Count the number of prime numbers in given array
+
+
