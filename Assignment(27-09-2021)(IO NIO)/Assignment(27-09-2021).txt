@@ -1,0 +1,23 @@
+Using "File" class of java.io package 
+
+1. Count number of files in a given Folder. Ask end user to enter folder path in a console and count files in that folder.
+
+2. Ask user to enter extension of file on console. Search for all files with that extension in all drives of system. 
+
+
+3. Ask user to enter file path.Ask user to search for a word in a file.
+Ask user to enter word to be replaced with
+Search for that word in file and replace it with new word entered by user.
+ Eg : Java is Programming language. Java is Object Oriented. Java is simple.
+
+path:d:\\IO\\File1.txt
+Search: Java
+Replace: Python
+
+4. Ask user to enter file path. Count number of words in that file, count number of numbers in that file.
+
+
+5. Ask user to enter file path. Convert all words at alternative position into uppercase excluding spaces.
+Java is a programming language.
+
+java IS a PROGRAMMING language.
