@@ -1,0 +1,53 @@
+{
+    "categoryId": "Category001",
+    "categoryDescription": "Category 1 description",
+    "categories": [
+        {
+            "subCategoryId": "SubCategory001",
+            "subCategoryDescription": "SubCategory 1 description",
+            "products": [
+                {
+                    "productId": "PROD001",
+                    "productDescription": "PROD 001 description",
+                    "items": [
+                        {
+                            "itemId": "ITEM001",
+                            "itemDescription": "ITEM 1 description",
+                            "itemPrice": 45000.0,
+                            "itemQuantity": 0
+                        },
+                        {
+                            "itemId": "ITEM002",
+                            "itemDescription": "ITEM 2 description",
+                            "itemPrice": 25000.0,
+                            "itemQuantity": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}{
+    "categoryId": "Category002",
+    "categoryDescription": "Category 2 description",
+    "categories": [
+        {
+            "subCategoryId": "SubCategory002",
+            "subCategoryDescription": "SubCategory 2 description",
+            "products": [
+                {
+                    "productId": "PROD002",
+                    "productDescription": "PROD 002 description",
+                    "items": [
+                        {
+                            "itemId": "ITEM003",
+                            "itemDescription": "ITEM 3 description",
+                            "itemPrice": 7000.0,
+                            "itemQuantity": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

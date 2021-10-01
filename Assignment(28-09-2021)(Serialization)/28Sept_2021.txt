@@ -1,0 +1,41 @@
+1. put student data into a file student.dat
+
+ 101 sabbir 45 54 67 81 71 66
+ 102 amit 95 66 62 88 79 63
+....
+
+Read data from student.dat and compute percentage of each student and sort student data based on percentage.
+
+2. Create a class Item with following attributes
+
+   itemId int
+   itemDescription String
+   itemQuantityAvailable int
+   itemUnitPrice double
+   itemDiscountPercentage int
+
+ Serialize List of Items(at least 4 items) and deserialize those items and print on console.
+
+3. Create a class Employee with following attributes
+
+    empId
+    empFirstName
+    empLastName
+    empDOB
+    empGender
+
+  create subclass Manager of Employee with following attributes
+
+   managerId
+
+  Serialize object of manager except empDOB and deserialize and print details on console.
+
+4. Create Category,Subcategory,Product,Item classes and associate them.
+
+   Serialize Category to JSON  
+   Deserialze category from JSON and print on console
+
+
+ 
+
+  
