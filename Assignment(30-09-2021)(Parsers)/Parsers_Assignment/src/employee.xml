@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+	<employee>
+		<empId>1001</empId>
+		<empName>Sabbir</empName>
+		<empSalary>34000</empSalary>
+	</employee>
+	<employee>
+		<empId>1002</empId>
+		<empName>Rohit</empName>
+		<empSalary>94000</empSalary>
+	</employee>
+	<employee>
+		<empId>1003</empId>
+		<empName>Kinshuk Jain</empName>
+		<empSalary>14000</empSalary>
+	</employee>
+	<employee>
+		<empId>1004</empId>
+		<empName>Neha</empName>
+		<empSalary>32000</empSalary>
+	</employee>
+	<employee>
+		<empId>1002</empId>
+		<empName>Mona</empName>
+		<empSalary>34321</empSalary>
+	</employee>
+	<employee>
+		<empId>1002</empId>
+		<empName>Mohit</empName>
+		<empSalary>60650</empSalary>
+	</employee>
+</employees>

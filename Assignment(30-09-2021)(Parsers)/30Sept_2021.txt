@@ -1,0 +1,25 @@
+1. Create an xml document with following details.
+
+    Subject,
+    Questions for Subject
+    Options for Questions with information of correct option
+
+
+  using Java DOM API.
+
+2. Read above xml document created using Java DOM parsers
+
+3. Read following xml document data using SAX Parsers.
+
+    <employees>
+    <employee>
+    <empId>1001</empId>
+    <empName>Sabbir</empName>
+    <empSalary>34000</empSalary>
+    </employee>
+    <employee>
+    <empId>1002</empId>
+    <empName>Rohit</empName>
+    <empSalary>94000</empSalary>
+    </employee>
+    </employees>
