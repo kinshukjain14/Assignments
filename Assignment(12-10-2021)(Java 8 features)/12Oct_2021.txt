@@ -1,0 +1,28 @@
+1. Create an functional interface with declaration of following method
+
+   public int max(int[] array);
+
+provide implementation of above method using lambda expression
+
+
+2. Create a class Student with following attributes
+
+   int rollNo
+   String firstName
+   String lastName
+   int semester1Marks;
+   int semester2Marks;
+   int semester3Marks;
+   ...
+   int semester6Marks;
+
+  Create an  new object of Student using Method Reference
+  Find the average of one student marks using Method Reference
+  
+3. Create a list of objects of class Product using Builder design pattern.
+
+     int productId
+     int productDescription
+     int productType
+
+
