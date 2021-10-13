@@ -11,9 +11,8 @@ public class Product {
 	
 	private Product() {}
 	
-	public Product(Product.Builder builder) 
+	private Product(Product.Builder builder) 
 	{
-		this();
 		this.productId=builder.productId;
 		this.productName=builder.productName;
 		this.productDescription=builder.productDescription;
