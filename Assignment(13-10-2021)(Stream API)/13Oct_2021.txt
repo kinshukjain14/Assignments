@@ -1,0 +1,19 @@
+ Create a list of students using Builder design pattern.
+
+   Attributes in Student
+     int rollNo
+     String firstName
+     String lastName
+     int semester1Marks
+     int semester2Marks
+     int semester3Marks
+     ......
+
+
+Using Stream API
+
+1. get list of all the students whose firstname has a pattern 'ai"
+2. Count the number of students whose firstname starts with "K"
+3. Identify student wise which semester has highest score and which semester has least score.
+4. Sort the students based on rollNo 
+5. Display FullName of each student in uppercase
