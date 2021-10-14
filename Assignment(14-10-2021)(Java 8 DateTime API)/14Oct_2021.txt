@@ -1,0 +1,14 @@
+1. Ask end user to enter date of birth.
+
+   Identify day birthday will fall in next year.
+
+2. Identify number of Years from 15th August,1947 till date.
+
+
+3. Get current time for following cities,
+
+   1.London
+   2.Berlin
+   3.New York
+   4.Mumbai
+   5.Singapore
