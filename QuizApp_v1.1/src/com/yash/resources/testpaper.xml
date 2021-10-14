@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testpaper>
+<subject code="101" name="Java">
+<question id="1">
+<questionDescription><![CDATA[Which of the following option leads to the portability and security of Java?]]></questionDescription>
+<option choice="true"><![CDATA[Bytecode is executed by JVM]]></option>
+<option choice="false"><![CDATA[The applet makes the Java code secure and portable]]></option>
+<option choice="false"><![CDATA[Use of exception handling]]></option>
+<option choice="false"><![CDATA[Dynamic binding between objects]]></option>
+</question>
+<question id="2">
+<questionDescription><![CDATA[Which of the following is not a Java features?]]></questionDescription>
+<option choice="false"><![CDATA[Dynamic]]></option>
+<option choice="false"><![CDATA[Architecture Neutral]]></option>
+<option choice="true"><![CDATA[Use of pointers]]></option>
+<option choice="false"><![CDATA[Object-oriented]]></option>
+</question>
+<question id="3">
+<questionDescription><![CDATA[_____ is used to find and fix bugs in the Java programs.]]></questionDescription>
+<option choice="false"><![CDATA[JVM]]></option>
+<option choice="false"><![CDATA[JRE]]></option>
+<option choice="false"><![CDATA[JDK]]></option>
+<option choice="true"><![CDATA[JDB]]></option>
+</question>
+<question id="4">
+<questionDescription><![CDATA[Which of the following is a valid declaration of a char?]]></questionDescription>
+<option choice="true"><![CDATA[char ch = '\utea';]]></option>
+<option choice="false"><![CDATA[char ca = 'tea';]]></option>
+<option choice="false"><![CDATA[char cr = \u0223;]]></option>
+<option choice="false"><![CDATA[char cc = '\itea';]]></option>
+</question>
+<question id="5">
+<questionDescription><![CDATA[What is the return type of the hashCode() method in the Object class?]]></questionDescription>
+<option choice="false"><![CDATA[Object]]></option>
+<option choice="true"><![CDATA[int]]></option>
+<option choice="false"><![CDATA[long]]></option>
+<option choice="false"><![CDATA[void]]></option>
+</question>
+<question id="6">
+<questionDescription><![CDATA[Which of the following is a valid long literal?]]></questionDescription>
+<option choice="false"><![CDATA[ABH8097]]></option>
+<option choice="false"><![CDATA[L990023]]></option>
+<option choice="false"><![CDATA[904423]]></option>
+<option choice="true"><![CDATA[0xnf029L]]></option>
+</question>
+<question id="7">
+<questionDescription><![CDATA[What does the expression float a = 35 / 0 return?]]></questionDescription>
+<option choice="false"><![CDATA[0]]></option>
+<option choice="false"><![CDATA[Not a Number]]></option>
+<option choice="true"><![CDATA[Infinity]]></option>
+<option choice="false"><![CDATA[Run time exception]]></option>
+</question>
+<question id="8">
+<questionDescription><![CDATA[Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?]]></questionDescription>
+<option choice="false"><![CDATA[javap tool]]></option>
+<option choice="false"><![CDATA[javaw command]]></option>
+<option choice="true"><![CDATA[Javadoc tool]]></option>
+<option choice="false"><![CDATA[javah command]]></option>
+</question>
+<question id="9">
+<questionDescription><![CDATA[Which of the following creates a List of 3 visible items and multiple selections abled?]]></questionDescription>
+<option choice="false"><![CDATA[new List(false, 3)]]></option>
+<option choice="true"><![CDATA[new List(3, true)]]></option>
+<option choice="false"><![CDATA[new List(true, 3)]]></option>
+<option choice="false"><![CDATA[new List(3, false)]]></option>
+</question>
+<question id="10">
+<questionDescription><![CDATA[Which of the following for loop declaration is not valid?]]></questionDescription>
+<option choice="true"><![CDATA[for ( int i = 99; i >= 0; i / 9 )]]></option>
+<option choice="false"><![CDATA[for ( int i = 7; i <= 77; i += 7 )]]></option>
+<option choice="false"><![CDATA[for ( int i = 20; i >= 2; - -i )]]></option>
+<option choice="false"><![CDATA[for ( int i = 2; i <= 20; i = 2* i )]]></option>
+</question>
+</subject>
+<subject code="102" name="SQL">
+<question id="1">
+<questionDescription><![CDATA[What is the full form of SQL?]]></questionDescription>
+<option choice="false"><![CDATA[Structured Query List]]></option>
+<option choice="true"><![CDATA[Structure Query Language]]></option>
+<option choice="false"><![CDATA[Sample Query Language]]></option>
+<option choice="false"><![CDATA[None of these.]]></option>
+</question>
+<question id="2">
+<questionDescription><![CDATA[Which of the following is not a valid SQL type?]]></questionDescription>
+<option choice="false"><![CDATA[FLOAT]]></option>
+<option choice="false"><![CDATA[NUMERIC]]></option>
+<option choice="true"><![CDATA[DECIMAL]]></option>
+<option choice="false"><![CDATA[CHARACTER]]></option>
+</question>
+<question id="3">
+<questionDescription><![CDATA[Which of the following is not a DDL command?]]></questionDescription>
+<option choice="false"><![CDATA[TRUNCATE]]></option>
+<option choice="false"><![CDATA[ALTER]]></option>
+<option choice="false"><![CDATA[CREATE]]></option>
+<option choice="true"><![CDATA[UPDATE]]></option>
+</question>
+<question id="4">
+<questionDescription><![CDATA[Which of the following are TCL commands?]]></questionDescription>
+<option choice="true"><![CDATA[COMMIT and ROLLBACK]]></option>
+<option choice="false"><![CDATA[UPDATE and TRUNCATE]]></option>
+<option choice="false"><![CDATA[SELECT and INSERT]]></option>
+<option choice="false"><![CDATA[GRANT and REVOKE]]></option>
+</question>
+<question id="5">
+<questionDescription><![CDATA[Which statement is used to delete all rows in a table without having the action logged?]]></questionDescription>
+<option choice="false"><![CDATA[DELETE]]></option>
+<option choice="false"><![CDATA[REMOVE]]></option>
+<option choice="false"><![CDATA[DROP]]></option>
+<option choice="true"><![CDATA[TRUNCATE]]></option>
+</question>
+<question id="6">
+<questionDescription><![CDATA[SQL Views are also known as]]></questionDescription>
+<option choice="false"><![CDATA[Simple tables]]></option>
+<option choice="true"><![CDATA[Virtual tables]]></option>
+<option choice="false"><![CDATA[Complex tables]]></option>
+<option choice="false"><![CDATA[Actual tables]]></option>
+</question>
+<question id="7">
+<questionDescription><![CDATA[How many Primary keys can have in a table?]]></questionDescription>
+<option choice="true"><![CDATA[Only 1]]></option>
+<option choice="false"><![CDATA[Only 2]]></option>
+<option choice="false"><![CDATA[Depends on no of Columns]]></option>
+<option choice="false"><![CDATA[Depends on DBA]]></option>
+</question>
+<question id="8">
+<questionDescription><![CDATA[What operator tests column for absence of data]]></questionDescription>
+<option choice="false"><![CDATA[NOT Operator]]></option>
+<option choice="false"><![CDATA[Exists Operator]]></option>
+<option choice="true"><![CDATA[IS NULL Operator]]></option>
+<option choice="false"><![CDATA[None of these]]></option>
+</question>
+<question id="9">
+<questionDescription><![CDATA[In which of the following cases a DML statement is not executed?]]></questionDescription>
+<option choice="false"><![CDATA[When existing rows are modified.]]></option>
+<option choice="true"><![CDATA[When a table is deleted.]]></option>
+<option choice="false"><![CDATA[When some rows are deleted.]]></option>
+<option choice="false"><![CDATA[All of the above]]></option>
+</question>
+<question id="10">
+<questionDescription><![CDATA[What is returned by INSTR ('JAVAT POINT', 'P')?]]></questionDescription>
+<option choice="false"><![CDATA[6]]></option>
+<option choice="true"><![CDATA[7]]></option>
+<option choice="false"><![CDATA[POINT]]></option>
+<option choice="false"><![CDATA[JAVAT]]></option>
+</question>
+</subject>
+<subject code="103" name="HTML">
+<question id="1">
+<questionDescription><![CDATA[The correct sequence of HTML tags for starting a webpage is -]]></questionDescription>
+<option choice="false"><![CDATA[Head, Title, HTML, body]]></option>
+<option choice="false"><![CDATA[HTML, Body, Title, Head]]></option>
+<option choice="false"><![CDATA[HTML, Title, Head, Body]]></option>
+<option choice="true"><![CDATA[HTML, Head, Title, Body]]></option>
+</question>
+<question id="2">
+<questionDescription><![CDATA[Which of the following element is responsible for making the text bold in HTML?]]></questionDescription>
+<option choice="false"><![CDATA[<pre>]]></option>
+<option choice="false"><![CDATA[<a>]]></option>
+<option choice="true"><![CDATA[<b>]]></option>
+<option choice="false"><![CDATA[<br>]]></option>
+</question>
+<question id="3">
+<questionDescription><![CDATA[Which of the following tag is used to insert a line-break in HTML?]]></questionDescription>
+<option choice="true"><![CDATA[<br>]]></option>
+<option choice="false"><![CDATA[<a>]]></option>
+<option choice="false"><![CDATA[<pre>]]></option>
+<option choice="false"><![CDATA[<b>]]></option>
+</question>
+<question id="4">
+<questionDescription><![CDATA[How to create an unordered list (a list with the list items in bullets) in HTML?]]></questionDescription>
+<option choice="false"><![CDATA[<ul>]]></option>
+<option choice="true"><![CDATA[<ol>]]></option>
+<option choice="false"><![CDATA[<li>]]></option>
+<option choice="false"><![CDATA[<i>]]></option>
+</question>
+<question id="5">
+<questionDescription><![CDATA[Which character is used to represent the closing of a tag in HTML?]]></questionDescription>
+<option choice="false"><![CDATA[\]]></option>
+<option choice="false"><![CDATA[!]]></option>
+<option choice="true"><![CDATA[/]]></option>
+<option choice="false"><![CDATA[.]]></option>
+</question>
+<question id="6">
+<questionDescription><![CDATA[How to add a background color in HTML?]]></questionDescription>
+<option choice="false"><![CDATA[<marquee bg color: "red">]]></option>
+<option choice="false"><![CDATA[<marquee bg-color = "red">]]></option>
+<option choice="true"><![CDATA[<marquee bgcolor = "red">]]></option>
+<option choice="false"><![CDATA[<marquee color = "red">]]></option>
+</question>
+<question id="7">
+<questionDescription><![CDATA[<input> is -]]></questionDescription>
+<option choice="false"><![CDATA[a format tag.]]></option>
+<option choice="true"><![CDATA[an empty tag.]]></option>
+<option choice="false"><![CDATA[All of the above]]></option>
+<option choice="false"><![CDATA[None of these]]></option>
+</question>
+<question id="8">
+<questionDescription><![CDATA[Which of the following tag is used to make the underlined text?]]></questionDescription>
+<option choice="false"><![CDATA[<i>]]></option>
+<option choice="true"><![CDATA[<u>]]></option>
+<option choice="false"><![CDATA[<br>]]></option>
+<option choice="false"><![CDATA[<pre>]]></option>
+</question>
+<question id="9">
+<questionDescription><![CDATA[Which of the following attribute is used to provide a unique name to an element?]]></questionDescription>
+<option choice="false"><![CDATA[class]]></option>
+<option choice="true"><![CDATA[id]]></option>
+<option choice="false"><![CDATA[type]]></option>
+<option choice="false"><![CDATA[None of these]]></option>
+</question>
+<question id="10">
+<questionDescription><![CDATA[What are the types of unordered or bulleted list in HTML?]]></questionDescription>
+<option choice="false"><![CDATA[disc, square, triangle]]></option>
+<option choice="false"><![CDATA[polygon, triangle, circle]]></option>
+<option choice="true"><![CDATA[disc, circle, square]]></option>
+<option choice="false"><![CDATA[All of the above]]></option>
+</question>
+</subject>
+<subject code="104" name="CSS">
+<question id="1">
+<questionDescription><![CDATA[CSS stands for -]]></questionDescription>
+<option choice="false"><![CDATA[Cascade style sheets]]></option>
+<option choice="false"><![CDATA[Color and style sheets]]></option>
+<option choice="true"><![CDATA[Cascading style sheets]]></option>
+<option choice="false"><![CDATA[None of the above]]></option>
+</question>
+<question id="2">
+<questionDescription><![CDATA[The property in CSS used to change the background color of an element is -]]></questionDescription>
+<option choice="false"><![CDATA[bgcolor]]></option>
+<option choice="false"><![CDATA[color]]></option>
+<option choice="true"><![CDATA[background-color]]></option>
+<option choice="false"><![CDATA[All of the above]]></option>
+</question>
+<question id="3">
+<questionDescription><![CDATA[The property in CSS used to change the text color of an element is -]]></questionDescription>
+<option choice="false"><![CDATA[bgcolor]]></option>
+<option choice="true"><![CDATA[color]]></option>
+<option choice="false"><![CDATA[background-color]]></option>
+<option choice="false"><![CDATA[All of the above]]></option>
+</question>
+<question id="4">
+<questionDescription><![CDATA[The CSS property used to control the element's font-size is -]]></questionDescription>
+<option choice="false"><![CDATA[text-style]]></option>
+<option choice="false"><![CDATA[text-size]]></option>
+<option choice="true"><![CDATA[font-size]]></option>
+<option choice="false"><![CDATA[None of the above]]></option>
+</question>
+<question id="5">
+<questionDescription><![CDATA[The HTML attribute used to define the inline styles is -]]></questionDescription>
+<option choice="true"><![CDATA[style]]></option>
+<option choice="false"><![CDATA[styles]]></option>
+<option choice="false"><![CDATA[class]]></option>
+<option choice="false"><![CDATA[None of the above]]></option>
+</question>
+<question id="6">
+<questionDescription><![CDATA[Which of the following CSS property is used to set the background image of an element?]]></questionDescription>
+<option choice="false"><![CDATA[background-attachment]]></option>
+<option choice="true"><![CDATA[background-image]]></option>
+<option choice="false"><![CDATA[background-color]]></option>
+<option choice="false"><![CDATA[None of the above]]></option>
+</question>
+<question id="7">
+<questionDescription><![CDATA[Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?]]></questionDescription>
+<option choice="true"><![CDATA[p {background-color : yellow;}]]></option>
+<option choice="false"><![CDATA[p {background-color : #yellow;}]]></option>
+<option choice="false"><![CDATA[all {background-color : yellow;}]]></option>
+<option choice="false"><![CDATA[all p {background-color : #yellow;}]]></option>
+</question>
+<question id="8">
+<questionDescription><![CDATA[Which of the following property is used as the shorthand property for the padding properties?]]></questionDescription>
+<option choice="false"><![CDATA[padding-left]]></option>
+<option choice="false"><![CDATA[padding-right]]></option>
+<option choice="false"><![CDATA[padding]]></option>
+<option choice="true"><![CDATA[All of the above]]></option>
+</question>
+<question id="9">
+<questionDescription><![CDATA[The CSS property used to specify the transparency of an element is -]]></questionDescription>
+<option choice="true"><![CDATA[opacity]]></option>
+<option choice="false"><![CDATA[filter]]></option>
+<option choice="false"><![CDATA[visibility]]></option>
+<option choice="false"><![CDATA[overlay]]></option>
+</question>
+<question id="10">
+<questionDescription><![CDATA[Are the negative values allowed in padding property?]]></questionDescription>
+<option choice="false"><![CDATA[Yes]]></option>
+<option choice="true"><![CDATA[No]]></option>
+<option choice="false"><![CDATA[Can't say]]></option>
+<option choice="false"><![CDATA[May be]]></option>
+</question>
+</subject>
+</testpaper>
