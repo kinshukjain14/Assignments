@@ -1,0 +1,18 @@
+Create a maven project with dependency of JUnit,Hamcrest and write test condition for following;
+
+
+1. For a given list if it contains following elements,
+  
+   1,9,10
+
+2. For a given map it has a key -1001 and value- 10000
+
+3. For a given String it starts with "S" and endwith with "h"
+
+4. For a given reference variable it is not null
+
+
+Generate report of above project using surefire plugin
+
+
+
