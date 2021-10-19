@@ -9,20 +9,23 @@ import com.yash.repository.UserRepo;
 
 public class MemoryUserDAOImpl implements UserDAO{
 
-	private int userId;
+	private static int userId;
 	private List<User> userData = UserRepo.loadUserData();
+	
 	@Override
 	public boolean checkUserCredentials(String userName, String password) {
 		
 		for (User user : userData) 
 		{
-			if(user.getUserName().equals(userName) && user.getPassword().equals(password)) {
-//				this.userId=
+			if(user.getUserName().equals(userName) && user.getPassword().equals(password)) 
+			{
+				userId=user.getUserId();
 				return true;
 			}
 		}
 		return false;
 	}
+	
 	@Override
 	public Optional<User> requestUserResponse() 
 	{

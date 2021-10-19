@@ -54,7 +54,7 @@ public class QuizLoaderView
 							ch = sc.nextInt();							
 						}
 						else {
-							System.out.println("*** Invalid Input : only numeric value required ***");
+							System.err.println("*** Invalid Input : only numeric value required ***");
 							Thread.sleep(100);
 							sc.next();
 							continue;
@@ -118,8 +118,6 @@ public class QuizLoaderView
 		System.out.println("Correct answers : "+countCorrect);
 		System.out.println("Wrong answers : "+countWrong);
 		System.out.println("Percentage : "+ percentage+"%");
-		System.out.println("*********************************************************");
-		System.out.println();
 		if(percentage >= 70.0) {
 			status="PASS";
 			System.out.println("Status : PASS");
@@ -128,8 +126,9 @@ public class QuizLoaderView
 		{
 			status="FAIL";
 			System.out.println("Status : FAIL");
-		}
-		
+		}		
+		System.out.println("*********************************************************");
+		System.out.println();
 		if(quizScoreToStore) {
 			String quizScoreRetrival = QuizScoresController.handleQuizScoreRetrival();
 			if(quizScoreRetrival != null) {

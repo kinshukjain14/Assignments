@@ -37,7 +37,7 @@ public class XMLQuizServicesImpl implements QuizServices{
 			
 			SubjectDataModel model = new SubjectDataModel(qModels);
 			return model;
-		} catch (ParserConfigurationException | SAXException | IOException e) {
+		} catch (ParserConfigurationException | SAXException | IOException | NullPointerException e) {
 			throw new QuestionParsingException("Error in processing the quiz questions");
 		}
 	}

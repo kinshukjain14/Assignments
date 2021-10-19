@@ -38,8 +38,7 @@ public class LoginView
 							if(authController.handleUserAuth(userModel)) {
 								System.out.println("** Authentication Successful **");
 								UserModel responseModel = authController.handleUserDetailsRequest();
-								QuizMenuView.loadModuleMenu(sc,true,responseModel);
-								
+								QuizMenuView.loadModuleMenu(sc,true,responseModel);							
 								break;
 							}		
 						}

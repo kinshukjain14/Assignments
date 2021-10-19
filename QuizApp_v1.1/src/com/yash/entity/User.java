@@ -8,8 +8,9 @@ public class User {
 	private String email;
 	private Long contactNo;
 	
-	public User(String userName, String password,String name,String email,Long contactNo) {
+	public User(int userId,String userName, String password,String name,String email,Long contactNo) {
 		super();
+		this.userId=userId;
 		this.userName = userName;
 		this.password = password;
 		this.name=name;
