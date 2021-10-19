@@ -1,0 +1,31 @@
+1.create a testcase with following test condition methods annoate these two condition method using meta annotation
+
+@Feature1
+void testCondition1(){
+assertTrue(true);
+}
+
+@Feature2
+void testCondition2(){
+assertTrue(true);
+}
+
+2. Write a test case with following condition
+@Tag("fast")
+@Test
+void testCondition1(){
+
+}
+
+@Tag("slow")
+@Test
+void testCondition2(){
+
+}
+
+Filter the test condition based on group i.e fast using STS,using pom.xml and specifying group to include and exclude while giving goal of maven
+
+3. Pass an array of int as parameter to test condition method and check if all elements in an array are even.
+
+
+
