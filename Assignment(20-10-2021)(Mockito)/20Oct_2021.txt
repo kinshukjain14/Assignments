@@ -1,0 +1,24 @@
+Create a class NumberCheck which will have validation of given number.
+
+class NumberCheck
+{
+	private MobileCheck mobileCheck;
+
+	public NumberCheck(MobileCheck mobileCheck)
+	{
+	this.mobileCheck=mobileCheck;
+	}
+
+	public boolean check(String number)
+	{
+	return mobileCheck.checkMobileNumber(number);
+	}
+
+}
+
+interface MobileCheck
+{
+checkMobileNumber(String number);
+}
+
+Write the test case for NumberCheck using Mockito Library.
