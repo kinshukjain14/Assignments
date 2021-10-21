@@ -1,0 +1,19 @@
+1. Retrieve the contact details about employees who belong to department id 10.
+
+2. Retrieve details of all employees who are earning more than 10000 and whose commission_pct is greater than 0.2
+
+3. Retrieve details of all employees who belong to department id either 10 or 20 or 50
+
+4. Search for employees whose name starts with K and ends with n.
+
+5. Search for employees whose last name contains 'oc'
+
+6. Search for employees who are not earning commission_pct
+
+7. Retrieve all non duplicate manager ids from employees table
+
+8. Sort the employees record in descending order based on salary. If two employees have same salary sorting should be done in ascending order based on last name.
+
+9. get all employees who belong  to department 50 and salary is greater than 5000
+
+10.Get details of all employees who has job id either as SA_REP or SA_MAN
