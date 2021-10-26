@@ -1,0 +1,11 @@
+1. Display department_id's of all departments which have number of employees greater than 5.
+
+2. display department ids whose employees salary average is greater than 20000
+
+3. Display details of  5 employees who are earning highest salary
+
+4. Retrieve department name,city,country name and region name to which employees belong to.
+
+5. Retrieve details of all employees whose commission_pct is greater than commission_pct of employee with last name De Haan.
+
+
