@@ -1,0 +1,50 @@
+1. insert new record in employees table with following details using prepared statement
+
+
+
+  EMPLOYEE_ID 999
+  FIRST_NAME ROHAN
+  LAST_NAME  SHAH
+  EMAIL  rohan.shah@hotmail.com
+  PHONENUMER 230-987-111
+  SALARY 45000
+  COMMISSION_PCT 0.2
+  MANAGER_ID 101
+  DEPARTMENT_ID 10
+
+
+2. delete a record from employees table for following employee_id using prepared statement
+   
+  EMPLOYEE_ID 101
+
+
+3. Update employee email and phonenumber with following details using prepared statement
+
+  EMAIL: official@yash.com
+  PHONENUMBER: 789-778-221
+
+4. Create a table States with following columns,
+
+   State_Id 
+   State_Name
+
+  and following records,
+
+  S001  Madhya Pradesh
+  S002  Uttar Pradesh
+
+
+ using Replace function insert following entry into state table
+
+  S001 MadhyaPradesh
+
+5. Create a table student with following columns,
+
+   Student_roll_no
+   Student_name
+   fees
+
+ Update student fees using replace function
+  
+
+
