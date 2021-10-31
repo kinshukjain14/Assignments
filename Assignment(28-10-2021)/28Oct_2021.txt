@@ -1,0 +1,10 @@
+1. Ask end user to enter department id and show all employees who belong to that department.
+
+2. Ask user to enter pattern to search in employee's first name. Retrieve all employees whose first name matches with pattern entered.
+
+3. Ask user to enter the salary
+
+  minimum salary
+  maximum salary
+
+Get the details of all employees whose salary is between minimum salary and maximum salary.
