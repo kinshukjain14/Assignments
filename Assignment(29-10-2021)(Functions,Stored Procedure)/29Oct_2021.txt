@@ -1,0 +1,5 @@
+1.insert record in jobs table using java
+2.increment salary by 200 of all employees whose designation is SA_REP using java
+3.delete record of employee who do not have department id assigned using java
+4. Retrieve JobTitle of employee based on employeeId using stored procedure. Execute stored procedure from java.
+5. Compute the commission employee earns by creating function. retrive value returned by function by using java.
