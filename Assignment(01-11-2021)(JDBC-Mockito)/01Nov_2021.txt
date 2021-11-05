@@ -1,0 +1,1 @@
+in EmployeesDB application , JDBCEmployeeDAOImpl complete updateEmployeeSalary(),deleteEmployees() and getDepartmentName() and write positive,negative and exception test conditions using mock objects. Also perform integration testing.
