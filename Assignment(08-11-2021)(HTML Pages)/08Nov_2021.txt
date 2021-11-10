@@ -1,0 +1,1 @@
+1. Create Login page,Registration Page and a static Quiz page using HTML5.

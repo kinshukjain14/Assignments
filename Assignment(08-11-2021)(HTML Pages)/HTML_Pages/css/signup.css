@@ -1,0 +1,21 @@
+
+tr{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+
+section
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px 50px 10px;
+}
+
+
+
+
+
+

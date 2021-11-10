@@ -1,0 +1,37 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+header img
+{
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+}
+
+header {
+    background: linear-gradient(to right,darkblue,rgb(230, 90, 230),purple) ;
+    /* background-color: darkblue; */
+    color: white;
+}
+
+header h1{
+    display: inline;
+}
+
+nav{
+    font-size: 15px;
+    padding: 5px;
+    background-color:gray;
+}
+
+a{
+    font-weight: bold;
+    color: white;
+}
+
+a:hover{
+    color: orangered
+    
+}
+
