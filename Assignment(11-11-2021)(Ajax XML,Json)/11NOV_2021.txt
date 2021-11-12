@@ -1,0 +1,1 @@
+1. Create quiz page using Ajax by parsing data from either XML or JSON file.
