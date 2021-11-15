@@ -1,0 +1,29 @@
+nav#nav1{
+float: right;
+        background-color: rgba(0, 0, 0,0);
+        margin-right:50px;
+        line-height: 100px;
+        margin:0 20px;
+}
+
+nav#nav1 > a{
+    color:beige;
+    margin-right: 10px;
+}
+
+nav#nav1 > a:hover{
+    color: crimson;
+}
+
+center{
+    font-size: 30px;
+    background-color:darkkhaki;
+}
+small{
+    
+    font-size: 20px;
+    background-color:darkseagreen;
+}
+div{
+    background-color:gainsboro;
+}

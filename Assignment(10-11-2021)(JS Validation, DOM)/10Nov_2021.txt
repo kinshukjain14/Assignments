@@ -1,0 +1,2 @@
+1.Perform validation for Login page,Registration page
+2.Create calculator using DOM API

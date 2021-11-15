@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./css/quizquestion.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script>
+        function loadquiz(){
+            var x = document.getElementById("inputValue").value;
+            if(x == "Java"){
+                window.location.href="JAVAQues.html";
+            }
+            else if(x == "SQL"){
+                window.location.href="SQLQues.html";
+            }
+            else if(x == "HTML"){
+                window.location.href="HTMLQues.html";
+            }
+            else if(x == "CSS"){
+                window.location.href="CSSQues.html";
+            }
+            else{
+                alert("No item selected")
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <img src="./images/Logo.png" alt="LOGO" width="100" height="80">
+        <h1>TechieQuizard</h1>
+        <nav>
+            | <a href="Homepage.html">Home</a> |
+            <a href="#">About Us</a> |
+            <a href="#">Help</a> |
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h3>Select module</h3>
+            <input id="inputValue" list="modules" name="module">
+            <datalist id="modules">
+                <option value="Java">Java</option>
+                <option value="SQL">SQL</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </datalist>
+            <input type="submit" value="Proceed for test" onclick="loadquiz()">
+        </section>
+        <br><br>
+    </main>
+    <hr>
+    <footer>
+        <b>&copy; Yash Technologies 2021</b>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+footer{
+    text-align: center;
+    background: linear-gradient(to right,darkblue,rgb(230, 90, 230),purple) ;
+    /* background-color: darkblue; */
+    color: white;
+}
