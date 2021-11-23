@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator DOM</title>
+    <link rel="stylesheet" href="./css/calculator.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/calculator_dom2.js"></script>
+</head>
+
+<body>
+    <body>
+       <main>
+           <section>
+            <h3>Calculator</h3>
+            <form>
+            <table>
+               <tr>
+                  <td colspan="3"><input type="text" id="result"/></td>
+                  <td><input type="button" value="C" onclick="clr()"/> </td>
+               </tr>
+               <tr>
+                  <td><input type="button" value="1" onclick="displayNumber('1')"/> </td>
+                  <td><input type="button" value="2" onclick="displayNumber('2')"/> </td>
+                  <td><input type="button" value="3" onclick="displayNumber('3')"/> </td>
+                  <td><input type="button" value="/" onclick="displayNumber('/')"/> </td>
+               </tr>
+               <tr>
+                  <td><input type="button" value="4" onclick="displayNumber('4')"/> </td>
+                  <td><input type="button" value="5" onclick="displayNumber('5')"/> </td>
+                  <td><input type="button" value="6" onclick="displayNumber('6')"/> </td>
+                  <td><input type="button" value="-" onclick="displayNumber('-')"/> </td>
+               </tr>
+               <tr>
+                  <td><input type="button" value="7" onclick="displayNumber('7')"/> </td>
+                  <td><input type="button" value="8" onclick="displayNumber('8')"/> </td>
+                  <td><input type="button" value="9" onclick="displayNumber('9')"/> </td>
+                  <td><input type="button" value="+" onclick="displayNumber('+')"/> </td>
+               </tr>
+               <tr>
+                  <td><input type="button" value="." onclick="displayNumber('.')"/> </td>
+                  <td><input type="button" value="0" onclick="displayNumber('0')"/> </td>
+                  <td><input type="button" value="=" id="operation" /> </td>
+                  <td><input type="button" value="*" onclick="displayNumber('*')"/> </td>
+               </tr>
+            </table>
+            </form>
+           </section>
+       </main>
+     </body>
+</body>
+</html>

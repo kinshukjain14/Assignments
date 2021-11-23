@@ -1,0 +1,2 @@
+1. Create a calculator using Ajax+Servlet
+2. Create a calculator using JQuery(Ajax)+Servlet
