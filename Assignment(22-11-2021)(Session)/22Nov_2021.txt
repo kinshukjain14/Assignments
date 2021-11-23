@@ -1,0 +1,4 @@
+1.Using HttpSession create a login screen in which if wrong credentials are entered more than 3 times , "Account is locked" is displayed
+
+2. Using Cookie , count the number of times user has visited same servlet.
+
