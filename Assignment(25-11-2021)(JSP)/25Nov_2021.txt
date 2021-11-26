@@ -1,0 +1,1 @@
+1. Ask user to enter personal details on first page, contact details on second page and show input given by user on both pages on third page.
