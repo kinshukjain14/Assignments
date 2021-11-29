@@ -1,0 +1,5 @@
+1.Create a custom tag with attribute as well body to convert the content of body into either upper case or lower case based on attribute.
+
+<format toCase="lower">
+<%=str%>
+</format>
